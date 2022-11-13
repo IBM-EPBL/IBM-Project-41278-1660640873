@@ -4,8 +4,6 @@
 	<title>Login Here</title>
 	<style>
 body {
-
-   background-image: url('https://www.freeiconspng.com/uploads/red-wave-line-png-8.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
