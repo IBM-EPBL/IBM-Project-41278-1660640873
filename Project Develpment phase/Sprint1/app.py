@@ -1,7 +1,7 @@
 from flask import Flask,redirect,url_for,render_template,request,make_response,jsonify
 import ibm_db
 
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32536;SECURITY=SSL;SSLServerCertificate=abc.crt;UID=gnq12618;PWD=0glS4tFaR2ciK8fB",'','')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=21fecfd8-47b7-4937-840d-d791d0218660.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31864;SECURITY=SSL;SSLServerCertificate=abc.crt;UID=sks13376;PWD=ihddRZZDMYcdcjin",'','')
 print(conn)
 print("connection successful...")
 app = Flask(__name__)
