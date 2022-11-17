@@ -134,13 +134,13 @@ def requestBloodPlasma():
     # send mail
 
     message = Mail(
-        from_email='eshwaran.s.2019.cse@rajalakshmi.edu.in',
+        from_email='keerthivasanece10@gmail.com',
         to_emails=email_list,
         subject='Sending with Twilio SendGrid is Fun',
         html_content='<h1>Need Of Blood</h1><table><tr><th>Name</th><th>' + name + '</th></tr><tr><th>Age</th><th>' + age + '</th></tr><tr><th>Sex</th><th>' + sex + '</th></tr><tr><th>Blood Group</th><th>' + blood_type + '</th></tr><tr><th>Phone Number</th><th>' + phone_number + '</th></tr></table>'
     )
     try:
-        sg = SendGridAPIClient("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")
+        sg = SendGridAPIClient("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")
         response = sg.send(message)
         print(response.status_code)
         print(response.body)
